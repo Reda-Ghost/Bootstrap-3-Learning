@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --mainColor:#db2245;;
+  --secondaryColor:#3a4353;
+}
+/* start about */
+.about {
+  padding: 34px 0;
+}
+.logo {
+  color: var(--mainColor);
+  font-weight: bold;
+}
+.about h2 {
+  font-style: italic;
+  padding-bottom: 20px;
+  font-size: 25px;
+  margin: 0;
+}
+.normal-p {
+  font-size: 17px;
+  line-height: 1.7;
+}
+/* end about */
+/* start Features */
+.features {
+  padding: 40px 0;
+  background-color: #eee;
+}
+.title {
+  padding: 0 20px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.8;
+}
+.title h2 {
+  color: var(--secondaryColor);
+  font-size: 32px;
+  font-style: italic;
+  margin-top: 0;
+}
+.small-p {
+  line-height: 1.5;
+  font-size: 14px;
+  letter-spacing: .5px;
+}
+.features .title {
+  margin-bottom: 40px;
+}
+.features .feature > i.fa {
+  font-size: 4rem;
+  color: var(--secondaryColor);
+}
+.features .feature > h4 {
+  margin-top: 20px;
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+/* end Features */
+/* start Testimonials */
+.testimonials {
+  padding: 40px 0;
+}
+.mrg-right {
+  margin-right: 10px;
+}
+/* end Testimonials */
